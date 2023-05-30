@@ -16,7 +16,7 @@ Compute the distance between two geographic points (R code)
 
 # Programming language
 
-<img src="https://img.icons8.com/?size=512&id=13441&format=png" width="50"/>
+<img src="https://img.icons8.com/?size=512&id=CLvQeiwFpit4&format=png" width="50"/>
 
 # OS
 
@@ -51,13 +51,13 @@ Compute the distance between two geographic points (R code)
 # Usage example
 
 ```R
-lat1 = -2
-lon1 = -30
-lat2 = -1
-lon2 = -30
+lat1 <- -2
+lon1 <- -30
+lat2 <- -1
+lon2 <- -30
     
-distance = calculate_distance(lat1, lon1, lat2, lon2)
-converted_distance = convert_distance(distance, "km")
+distance <- calculate_distance(lat1, lon1, lat2, lon2)
+converted_distance <- convert_distance(distance, 'km')
 
-print("The distance between the two points is approximately {:.2f} {}.".format(converted_distance, unit))
+cat("The distance between the two points is approximately", round(converted_distance, 2), unit, "\n")
 ```
