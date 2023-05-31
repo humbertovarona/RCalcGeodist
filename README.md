@@ -57,7 +57,7 @@ lat2 <- -1
 lon2 <- -30
     
 distance <- calculate_distance(lat1, lon1, lat2, lon2)
-converted_distance <- convert_distance(distance, 'km')
+converted_distance <- convert_distance(distance, "km)
 
 cat("The distance between the two points is approximately", round(converted_distance, 2), unit, "\n")
 ```
